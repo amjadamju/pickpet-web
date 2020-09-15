@@ -1,21 +1,38 @@
 .view {
     background-color: #e35555;
-    border-bottom-left-radius:30%;
-    border-bottom-right-radius:30%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius:200px;
     max-height: 600px;
     height: 100%;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
 }
 
 .logo {
-    left:30px ;
+
+    position: absolute;
+    left: 60px;;
 }
 .container {
     position: relative;
     text-align: center;
     top: 200px;
 
+
 }
+
+
+.ncol{
+    color: #000000 !important;
+    
+    
+}
+ a.ncol:hover{
+
+    color: #e35555 !important;
+ }
 html,
 body,
 header,
@@ -24,14 +41,11 @@ header,
 }
 
 
-.bg-dark {
 
-    background: #e35555!important ; 
-}
 
-.side {
+.side  {
 
-    left: 30px; 
+    left: 150px; 
     top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -62,9 +76,35 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.
+
 
 h5 {
 
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.bg-dark {
+
+    background: transparent !important;
+}
+
+.scrolled {
+
+    background: #ffffff !important;
+}
+
+.fa-paw {
+
+    color: #000000;
+   
+
+}
+
+.btnc {
+
+    background-color: #e35555;
+    color: #ffffff;
+}
+
+
