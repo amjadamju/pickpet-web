@@ -19,8 +19,10 @@
   <link rel="stylesheet" href="css/joinbeta.css">
 </head>
 <body>
-<div style=" background-color: #f5faff;">
+
   <!-- Start your project here-->  
+<div style=" background-color: #f5faff;">
+
   <div class="container" style="padding: 5%;">
 
     <!-- Section -->
@@ -120,9 +122,9 @@ catch(Exception $e) {
     <!-- Section -->
   
   </div>
-  <!-- End your project here-->
+  
 </div>
-
+<!-- End your project here-->
   <!-- jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
