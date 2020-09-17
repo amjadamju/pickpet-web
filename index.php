@@ -30,38 +30,46 @@
 
   
   <!-- Start your project here-->  
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-   
+  <nav class="navbar fixed-top navbar-expand-lg navbar-l navbar-light bg-dark">
+    <div class="container">
+  <a class="navbar-brand" href="#"><img class="ml-3" src="img/pickpet-latest-1_3_100x55.png"></img></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item ">
+        <!-- <li class="nav-item ">
           <img class="logo" src="img/pickpet-latest-1_3_100x55.png"></img>
+        </li> -->
+        <li class="nav-item ">
+          <a class="nav-link waves-effect black-text" href="#" ><strong>Features</strong></a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link waves-effect side abc " href="#">Features</a>
+          <a class="nav-link waves-effect black-text " href="#"><strong>Pricing</strong></a>
         </li>
-        <li class="nav-item ">
-          <a class="nav-link waves-effect side abc " href="#">Pricing</a>
-        </li>
-
-        <li class="nav-item ">
+        </ul>
+        <ul class="navbar-nav">
+        <!-- <li class="nav-item ">
           <a class="nav-link waves-effect one right abc " href="#">Login</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link waves-effect one right abc " href="#">|</a>
-        </li>
+        </li> -->
         <li class="nav-item ">
-          <button class="btn right top" href="#">Join Beta</button>
+          <button class="btn colr" href="#">Join Beta</button>
         </li>
-      </ul>
+        </ul>
+      
     </div>
+</div>
   </nav>
 
-  <div class="view ">
+  <div class="view " style="background-color: rgba(245, 87, 87, 0)">
     
 
-        <div class="container text-center white-text ">
+        <div class="headstyle text-center black-text ">
            <i class="fas fa-paw ml-4 fa-3x"></i>
             <h1>PickPet</h1>
             <h5>....For the best pets....</h5>
@@ -69,11 +77,6 @@
           
         </div>
       
-    
-  </div>
-
-</header>
-
 
 </div>
 
@@ -85,13 +88,13 @@
   
   <!-- Start your project here-->  
  
-<section class="container mt-4" style="margin-bottom:20%">
+<section class="container mt-4" style="">
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 mb-3">
         <!-- Card -->
 <div class="card">
     <div class="mt-3">
-    <i class="fas fa-paw ml-4 fa-3x"></i>
+    <i class="fas fa-paw fa-3x ml-4"></i>
     <!-- Card content -->
     <div class="card-body">
     <!-- Title -->
@@ -106,10 +109,10 @@
   <!-- Card -->
     </div>
     <!-- Card -->
-    <div class="col-md-3">
+    <div class="col-md-3 mb-3">
     <div class="card">
     <div class="mt-3">
-    <i class="fas fa-paw ml-4 fa-3x"></i>
+    <i class="fas fa-paw fa-3x ml-4"></i>
     <!-- Card content -->
     <div class="card-body">
     <!-- Title -->
@@ -125,10 +128,10 @@
   <!-- Card -->
   </div>
   <!-- Card -->
-  <div class="col-md-3">
+  <div class="col-md-3 mb-3">
 <div class="card">
     <div class="mt-3">
-    <i class="fas fa-paw ml-4 fa-3x"></i>
+    <i class="fas fa-paw fa-3x ml-4"></i>
     <!-- Card content -->
     <div class="card-body">
     <!-- Title -->
@@ -143,10 +146,10 @@
   <!-- Card -->
  </div>
   <!-- Card -->
-  <div class="col-md-3">
+  <div class="col-md-3 mb-3">
 <div class="card">
     <div class="mt-3">
-    <i class="fas fa-paw ml-4 fa-3x"></i>
+    <i class="fas fa-paw fa-3x ml-4"></i>
     <!-- Card content -->
     <div class="card-body">
     <!-- Title -->
@@ -170,14 +173,13 @@
 
 
 
-
+  <section style=" background-color: #f5faff;">
   <!-- Start your project here-->  
-<div style=" background-color: #f5faff;">
 
-<div class="container" style="">
+<div class="container mt-4 mb-4 pt-4 pb-4">
 
   <!-- Section -->
-  <section>
+ 
 
     <h3 class="font-weight-normal text-center pb-2 display-4 header" style="font-size: 40px; font-family: Helvetica;"><strong>Join Beta</strong></h3>
     
@@ -185,13 +187,13 @@
     
     <!--First row-->
     <div class="row d-flex justify-content-center">
-      <div class="col-6">
+      <div class="col-md-6">
         <div class="view1" style="margin-top: 10%; margin-bottom: 5%;">
           <img src="img/pickpet.png" class="img-fluid" alt="smaple image">
         </div>
       </div>
       <!--First column-->
-      <div class="col-6 z-depth-1" style="background-color: white; padding: 3%;">
+      <div class="col-md-5 mx-auto z-depth-1" style="background-color: white; padding: 3%;">
       <form method = "post" action = "<?=$_SERVER['PHP_SELF'];?>">
         <!-- Material outline input -->
         <div class="md-form md-outline form-lg">
@@ -269,21 +271,21 @@ catch(Exception $e) {
     </div>
     <!--First row-->
 
-  </section>
+  
   <!-- Section -->
 
 </div>
 
-</div>
-<!-- End your project here-->
 
+<!-- End your project here-->
+</section>
 
 
 
  <!-- Start your project here-->  
  <footer id="myFooter">
-        <div class="container-fluid" >
-            <section class="container">
+        <div class="container-fluid container">
+           
             <div class="row justify-content-center text-center" style="font-size: 13px;" >
                 <div class=" col-sm-6 col-md-4 text-left">
                     
@@ -311,7 +313,7 @@ catch(Exception $e) {
                     <p style="font-weight: bold;font-size: 12px;"><br>©2020 Pickpet<br></p>
                 </div>
             </div>
-            </section>
+            
         </div>
     </footer>
   <!-- End your project here-->
