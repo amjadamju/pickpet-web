@@ -19,8 +19,10 @@
   <link rel="stylesheet" href="css/joinbeta.css">
 </head>
 <body>
-<div style=" background-color: #f5faff;">
+
   <!-- Start your project here-->  
+<div style=" background-color: #f5faff;">
+
   <div class="container" style="padding: 5%;">
 
     <!-- Section -->
@@ -80,22 +82,26 @@ try{
         if($name !=''||$email !=''){
         //Insert Query of SQL
         $sql ="insert into beta_responses(name,email,phno,bio) values ('$name','$email','$phno','$bio')";
+        if (mysqli_query($conn, $sql)) 
+        {
+          $message = "Data Submitted";
+          echo "<script type='text/javascript'>alert('$message');</script>";
+          // echo "New record created successfully";
+       } else {
+          $message = "Submission Error!!";
+          echo "<script type='text/javascript'>alert('$message');</script>";
+       }
     }
     else{
         $message = "Insertion Failed.. Some Fields are Blank....!!";
         echo "<script type='text/javascript'>alert('$message');</script>";
     }
+    // header( "Location: {$_SERVER['REQUEST_URI']}", true, 303 );
+    // exit(); 
     }
-    if (mysqli_query($conn, $sql)) {
-        $message = "Data Submitted";
-        echo "<script type='text/javascript'>alert('$message');</script>";
-        // echo "New record created successfully";
-     } else {
-        $message = "Submission Error!!";
-        echo "<script type='text/javascript'>alert('$message');</script>";
-     }
       // Closing Connection with Server
      $conn->close();
+  
 }
 catch(Exception $e) {
     echo 'Message: ' .$e->getMessage();
@@ -116,9 +122,9 @@ catch(Exception $e) {
     <!-- Section -->
   
   </div>
-  <!-- End your project here-->
+  
 </div>
-
+<!-- End your project here-->
   <!-- jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->

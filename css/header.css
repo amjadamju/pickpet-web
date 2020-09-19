@@ -1,0 +1,110 @@
+.view {
+    background-color: #e35555;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius:200px;
+    max-height: 600px;
+    height: 100%;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.logo {
+
+    position: absolute;
+    left: 60px;;
+}
+.headstyle {
+    position: relative;
+    text-align: center;
+    top: 200px;
+
+
+}
+
+
+.ncol{
+    color: #000000 !important;
+    
+    
+}
+ a.ncol:hover{
+
+    color: #e35555 !important;
+ }
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+
+
+
+.side  {
+
+    left: 150px; 
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.right {
+
+    left: 1300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one {
+
+    top: 10px;
+}
+
+.btn {
+
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1 {
+
+    font-size:70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h5 {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bg-dark {
+
+    background: transparent !important;
+}
+
+.scrolled {
+
+    background: #ffffff !important;
+}
+
+.fa-paw {
+
+    color: #000000;
+   
+
+}
+
+.btnc {
+
+    background-color: #e35555;
+    color: #ffffff;
+}
+
+
