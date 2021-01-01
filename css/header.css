@@ -26,8 +26,6 @@
 
 .ncol{
     color: #000000 !important;
-    
-    
 }
  a.ncol:hover{
 
@@ -39,9 +37,6 @@ header,
 .view {
   height: 100%;
 }
-
-
-
 
 .side  {
 
@@ -84,10 +79,10 @@ h5 {
 }
 
 
-.bg-dark {
+/* .bg-dark {
 
     background: transparent !important;
-}
+} */
 
 .scrolled {
 
