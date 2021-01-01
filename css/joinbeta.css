@@ -8,7 +8,7 @@ input:focus:not([readonly]) + label {
 
 input:focus:not([readonly]) {
     border: 1px solid  #e35555 !important;
-    box-shadow: 0 1px 0 0  #e35555 !important; 
+    box-shadow: 0 1px 0 0  #e85555 !important; 
 }
 .btimgfloat{
     position: relative;
